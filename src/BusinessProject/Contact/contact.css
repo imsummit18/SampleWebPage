@@ -1,0 +1,72 @@
+.contact-title{
+    text-align: center;
+    font-size:35px;
+}
+.contact-detail{
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+.contact-detail input,.contact-detail textarea{
+    outline: none;
+    border: 1px solid gray;
+    padding: 4px;
+}
+.contact-detail label{
+    font-weight:500;
+    margin: 5px 0;
+}
+.btn-submit{
+    margin-top: 15px;
+    cursor: pointer;
+}
+.message{
+    color: green;
+    text-align: center;
+    font-weight: 500;
+}
+.error-message{
+    color: crimson;
+}
+.message-invalid{
+    
+    color: crimson;
+    
+}
+/* .invalid-message{
+    color: crimson;
+    text-align: center;
+    font-weight: 500;
+} */
+
+.message{
+  -webkit-animation: seconds 1.0s forwards;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-delay: 5s;
+  animation: seconds 0.5s forwards;
+  animation-iteration-count: 1;
+  animation-delay: 3s;
+  position: relative;
+  /* background: red; */
+}
+@-webkit-keyframes seconds {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    left: -9999px; 
+  }
+}
+@keyframes seconds {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    left: -9999px; 
+  }
+}

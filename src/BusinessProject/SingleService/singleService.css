@@ -1,0 +1,30 @@
+.single-items{
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+margin: auto;
+    margin-top: 70px;
+}
+.single-items img{
+    height: 350px;
+    width: 450px;
+    margin-left: 50px;
+    margin-right: 100px;
+border-radius:15px ;
+}
+
+.bottom-desc-single-items .title{
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 10px;
+} 
+.bottom-desc-single-items .desc{
+    font-size: 18px;
+
+}
+.btn-order{
+    margin-top: 20px;
+}
+
+
+

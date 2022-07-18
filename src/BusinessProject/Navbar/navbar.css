@@ -1,0 +1,51 @@
+.navbar{
+    /* background-color: crimson; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:100px;
+
+}
+
+.left-heading{
+    color:#2193b0;
+margin-left: 110px;
+cursor: pointer ;
+}
+.list{
+    width: 400px;
+    font-weight: 300;
+    font-size: 18px;
+    display: flex;
+  margin-right: 100px;
+  border: none;
+  justify-content: space-evenly;cursor: pointer;
+}
+.list li{
+    list-style: none;
+ 
+}
+.heading{
+    color: #2193b0;
+    text-decoration: none;
+}
+ .List2{
+    text-decoration: none;
+    
+    color: black;
+ }
+ .person-img{
+    animation: up-down 2s ease-in-out infinite alternate-reverse ;
+ }
+
+@keyframes up-down {
+    0%{
+        transform:translateY(10px);
+    }
+    
+    100%{
+        transform:translateY(-10px);
+    }
+}
+
